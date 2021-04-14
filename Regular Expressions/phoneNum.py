@@ -9,4 +9,4 @@ mo = phoneNumRegex.search('My number is (415) 555-4242.')
 print(mo.group(1))
 print(mo.group(2))
 
-phoneNumRegex = re.compile(r'((\()?\d{3}(\))?)( |-)(\d{3}( |-)\d{4})') # find phone number in any commonly used format
+phoneNumRegex = re.compile(r'(((\()?\d{3}(\))?)( |-))?(\d{3}( |-)\d{4})') # find phone number in any commonly used format with or without an area code.
