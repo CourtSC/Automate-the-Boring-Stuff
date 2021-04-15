@@ -28,7 +28,7 @@ if int(year) in range(1000,3000): # Check for valid year.
     if (int(month) in [4, 6, 9, 11]) and (int(day) in range(1, 31)): # Check for 30 day month.
         print(date)
     elif (int(month) == 2): # Check for February.
-        if (int(year) % 4 == 0) and ((int(year) % 100 != 0) or (int(year) % 400 == 0)):
+        if (int(year) % 4 == 0) and ((int(year) % 100 != 0) or (int(year) % 400 == 0)): # Check for Leap Year.
             leapYear = True
         else:
             leapYear = False
