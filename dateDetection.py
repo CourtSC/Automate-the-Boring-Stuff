@@ -18,28 +18,29 @@ dateRegex = re.compile(r'''(
     ([1-2][0-9]{3})   # Year
 )''', re.VERBOSE)
 
-while True:
-    mo = dateRegex.search('Enter a date in DD/MM/YYYY format: ') # Matches date.
-    try:
-        date, day, month, year = mo.groups() # Assigns date to variables.
-        exit
-    except:
-        print('Not a valid date.')
-
-if (year % 4 == 0) and ((year % 100 != 0) or (year % 400 == 0)):
-    leapYear = True
-else:
-    leapYear = False
+mo = dateRegex.search(input('Enter a date in DD/MM/YYYY format: ')) # Matches date.
+try:
+    date, day, month, year = mo.groups() # Assigns date to variables.
+except:
+    print('Not a valid date.')
 
 if int(year) in range(1000,3000): # Check for valid year.
     if (int(month) in [4, 6, 9, 11]) and (int(day) in range(1, 31)): # Check for 30 day month.
         print(date)
     elif (int(month) == 2): # Check for February.
+        if (int(year) % 4 == 0) and ((int(year) % 100 != 0) or (int(year) % 400 == 0)):
+            leapYear = True
+        else:
+            leapYear = False
         if leapYear and (int(day) in range(1,30)): # Check for 29 day Leap Year.
             print(date)
         elif not leapYear and (int(day) in range(1,29)): # Check for 28 day not Leap Year.
             print(date)
-    elif (int(month) in range(1,13)) and (int(day) in range(1,32)): # Check for 31 day month.
+        else:
+            print('Not a valid date')
+    elif (int(month) not in [2, 4, 6, 9, 11]) and (int(day) in range(1,32)): # Check for 31 day month.
         print(date)
     else:
         print('Not a valid date')
+else:
+    print('Not a valid date')
