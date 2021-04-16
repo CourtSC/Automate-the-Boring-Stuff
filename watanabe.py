@@ -21,7 +21,7 @@ names = ['Haruto Watanabe', 'Alice Watanabe', 'RoboCop Watanabe', 'haruto Watana
 watanabeRegex = re.compile(r'''(
     ^[A-Z]      # First letter of first name.
     [a-zA-Z]*   # Rest of the first name.
-    [ ]         # Space
+    \s         # Space
     Watanabe$   #Last name.
 )''', re.VERBOSE)
 
