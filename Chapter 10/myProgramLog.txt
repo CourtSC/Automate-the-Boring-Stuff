@@ -1,0 +1,36 @@
+ 2021-11-23 16:08:14,072 - DEBUG- Start of program
+ 2021-11-23 16:08:14,072 - DEBUG- Start of factorial(5)
+ 2021-11-23 16:08:14,072 - DEBUG- i is 1, total is 1
+ 2021-11-23 16:08:14,072 - DEBUG- i is 2, total is 2
+ 2021-11-23 16:08:14,073 - DEBUG- i is 3, total is 6
+ 2021-11-23 16:08:14,073 - DEBUG- i is 4, total is 24
+ 2021-11-23 16:08:14,073 - DEBUG- i is 5, total is 120
+ 2021-11-23 16:08:14,073 - DEBUG- End of factorial(5)
+ 2021-11-23 16:08:14,073 - DEBUG- End of program
+ 2021-11-23 16:08:19,910 - DEBUG- Start of program
+ 2021-11-23 16:08:19,911 - DEBUG- Start of factorial(5)
+ 2021-11-23 16:08:19,911 - DEBUG- i is 1, total is 1
+ 2021-11-23 16:08:19,911 - DEBUG- i is 2, total is 2
+ 2021-11-23 16:08:19,911 - DEBUG- i is 3, total is 6
+ 2021-11-23 16:08:19,911 - DEBUG- i is 4, total is 24
+ 2021-11-23 16:08:19,911 - DEBUG- i is 5, total is 120
+ 2021-11-23 16:08:19,911 - DEBUG- End of factorial(5)
+ 2021-11-23 16:08:19,911 - DEBUG- End of program
+ 2021-11-23 16:09:34,768 - DEBUG- Start of program
+ 2021-11-23 16:09:34,768 - DEBUG- Start of factorial(5)
+ 2021-11-23 16:09:34,768 - DEBUG- i is 1, total is 1
+ 2021-11-23 16:09:34,768 - DEBUG- i is 2, total is 2
+ 2021-11-23 16:09:34,768 - DEBUG- i is 3, total is 6
+ 2021-11-23 16:09:34,768 - DEBUG- i is 4, total is 24
+ 2021-11-23 16:09:34,768 - DEBUG- i is 5, total is 120
+ 2021-11-23 16:09:34,768 - DEBUG- End of factorial(5)
+ 2021-11-23 16:09:34,769 - DEBUG- End of program
+ 2021-11-23 16:09:41,013 - DEBUG- Start of program
+ 2021-11-23 16:09:41,013 - DEBUG- Start of factorial(5)
+ 2021-11-23 16:09:41,013 - DEBUG- i is 1, total is 1
+ 2021-11-23 16:09:41,013 - DEBUG- i is 2, total is 2
+ 2021-11-23 16:09:41,013 - DEBUG- i is 3, total is 6
+ 2021-11-23 16:09:41,013 - DEBUG- i is 4, total is 24
+ 2021-11-23 16:09:41,013 - DEBUG- i is 5, total is 120
+ 2021-11-23 16:09:41,013 - DEBUG- End of factorial(5)
+ 2021-11-23 16:09:41,014 - DEBUG- End of program
