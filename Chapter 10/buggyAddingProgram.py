@@ -1,0 +1,15 @@
+import logging
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s- %(message)s')
+
+logging.debug('Start')
+print('Enter the first number to add')
+first = input()
+logging.debug(f'first variable is {first}')
+print('Enter the second number to add:')
+second = input()
+logging.debug(f'second variable is {second}')
+print('Enter the third number to add:')
+third = input()
+logging.debug(f'third variable is {third}')
+print(f'The sum is {int(first) + int(second) + int(third)}')
+logging.debug(f'Desired output is {int(first) + int(second) + int(third)}')
