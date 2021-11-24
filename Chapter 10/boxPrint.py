@@ -1,3 +1,6 @@
+import logging
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s- %(message)s')
+
 def boxPrint(symbol, width, height):
     if len(symbol) != 1:
         raise Exception('Symbol must be a single character string.')
