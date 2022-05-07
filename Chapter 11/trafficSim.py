@@ -1,3 +1,10 @@
+#! python 3
+
+import logging
+
+
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+
 market_2nd = {'ns': 'green', 'ew': 'red'}
 mission_16th = {'ns': 'red', 'ew':'green'}
 

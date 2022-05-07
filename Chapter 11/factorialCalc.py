@@ -1,7 +1,7 @@
 #! python 3
 
 import logging
-# logging.disable(logging.CRITICAL)
+logging.disable(logging.CRITICAL)
 
 logging.basicConfig(filename = 'factorialCalcLog.md', level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
 
