@@ -10,6 +10,6 @@ def bacon():
 try:
     spam()
 except:
-    with open('errorInfo.txt', 'w') as errorFile:
+    with open('errorInfo.md', 'w') as errorFile:
         errorFile.write(format_exc())
-    print('The traceback info was written to errorInfo.txt')
+    print('The traceback info was written to errorInfo.md')
